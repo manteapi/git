@@ -1,6 +1,7 @@
 [user]
 	email = pierreluc.manteaux@gmail.com
 	name = Pierre-Luc
-
 [status]
 	submoduleSummary = true
+[core]
+	excludesfile = ~/.gitignore_global
