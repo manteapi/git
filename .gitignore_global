@@ -2,3 +2,4 @@
 tags
 *.pyc
 build-release
+build-debug
