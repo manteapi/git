@@ -1,4 +1,5 @@
 *.swp
+_version.py
 tags
 *.pyc
 build-release
