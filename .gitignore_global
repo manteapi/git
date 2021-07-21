@@ -3,3 +3,5 @@ tags
 *.pyc
 build-release
 build-debug
+.mypy_cache
+.vscode
