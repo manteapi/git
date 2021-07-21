@@ -6,4 +6,4 @@ build-debug
 .mypy_cache
 .vscode
 .history
-.code-workspace
+*.code-workspace
