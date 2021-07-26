@@ -8,3 +8,4 @@ build-debug
 .vscode
 .history
 *.code-workspace
+lastReturnInfo.json
