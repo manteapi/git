@@ -2,7 +2,7 @@
 	email = manteaux@anatoscope.com
 	name = Pierre-Luc
 [status]
-	submoduleSummary = true
+	submoduleSummary = false
 [core]
 	excludesfile = ~/.gitignore_global
     editor = 'vim'
