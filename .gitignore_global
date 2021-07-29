@@ -1,5 +1,7 @@
 *.swp
 tags
 *.pyc
+**.vscode
+*.code-workspace
 build-release
 build-debug
