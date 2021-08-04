@@ -5,3 +5,5 @@ tags
 *.code-workspace
 build-release
 build-debug
+.vscode
+*.code-workspace
