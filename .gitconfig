@@ -1,8 +1,8 @@
 [user]
-	email = manteaux@anatoscope.com
-	name = PIerre-Luc Manteaux
+    email = manteaux@anatoscope.com
+    name = Pierre-Luc Manteaux
 [status]
-	submoduleSummary = false
+    submoduleSummary = false
 [core]
-	excludesfile = ~/.gitignore_global
-    editor = 'vim'
+    excludesfile = ~/.gitignore_global
+    editor = 'nvim'
