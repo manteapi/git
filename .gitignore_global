@@ -1,4 +1,7 @@
 *.swp
+coverage.xml
+compile_commands.json
+.cache
 _version.py
 tags
 *.pyc
@@ -9,3 +12,4 @@ build-debug
 .history
 *.code-workspace
 lastReturnInfo.json
+CMakeLists.txt.user
