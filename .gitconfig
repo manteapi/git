@@ -8,3 +8,5 @@
     editor = 'vim'
 [pull]
 	rebase = true
+[merge]
+	ff = no
