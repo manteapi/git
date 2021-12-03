@@ -13,3 +13,4 @@ build-debug
 *.code-workspace
 lastReturnInfo.json
 CMakeLists.txt.user
+Testing
