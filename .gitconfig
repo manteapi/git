@@ -1,6 +1,6 @@
 [user]
 	email = pierre-luc.manteaux@circle.dental
-	name = Pierre-Luc
+	name = Pierre-Luc Manteaux
 [status]
 	submoduleSummary = false
 [core]
@@ -12,3 +12,5 @@
 	ff = no
 [push]
 	default = current
+[includeIf "gitdir:~/repositories/personal/"]
+    path = ~/.gitconfig-personal
