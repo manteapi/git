@@ -1,15 +1,23 @@
 [user]
 	email = pierre-luc.manteaux@circle.dental
 	name = Pierre-Luc Manteaux
+[interactive]
+    diffFilter = delta --color--only
+[delta]
+    navigate = true # use n and N to move betweend diff sections
 [status]
 	submoduleSummary = false
 [core]
 	excludesfile = ~/.gitignore_global
     editor = 'nvim'
+    pager = delta
 [pull]
 	rebase = true
 [merge]
 	ff = no
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
 [push]
 	default = current
 [includeIf "gitdir:~/repositories/personnal/"]
