@@ -12,6 +12,7 @@
 	excludesfile = ~/.gitignore_global
     editor = 'nvim'
     pager = delta
+    attributesfile = ~/.gitattributes
 [pull]
 	rebase = true
 [merge]
@@ -19,6 +20,8 @@
     conflictstyle = diff3
 [diff]
     colorMoved = default
+[diff "image"]
+	command = ~/bin/git-imgdiff.sh
 [push]
 	default = current
 [includeIf "gitdir:~/repositories/personnal/"]
