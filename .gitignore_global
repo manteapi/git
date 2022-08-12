@@ -1,5 +1,7 @@
 *.swp
 
+~
+
 neovim.toml
 
 coverage.xml
