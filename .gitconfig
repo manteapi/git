@@ -24,9 +24,14 @@
 	command = ~/bin/git-imgdiff.sh
 [push]
 	default = current
+    autoSetupRemote = true
 [includeIf "gitdir:~/repositories/personnal/"]
     path = ~/.gitconfig-personal
 [includeIf "gitdir:~/repositories/bluff/"]
     path = ~/.gitconfig-personal
 [includeIf "gitdir:~/repositories/dotfiles/"]
     path = ~/.gitconfig-personal
+[alias]
+    st = status
+    p = pull --all --prune
+    k = log --graph --abbrev-commit --decorate --oneline
