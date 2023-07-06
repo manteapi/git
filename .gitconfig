@@ -35,3 +35,5 @@
     st = status
     p = pull --all --prune
     k = log --graph --abbrev-commit --decorate --oneline
+[checkout]
+    workers = 4
