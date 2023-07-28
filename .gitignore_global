@@ -8,6 +8,8 @@ coverage.xml
 
 .cache
 
+.coverage
+
 tags
 
 **.vscode
