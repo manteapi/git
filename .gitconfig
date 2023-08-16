@@ -21,7 +21,7 @@
 [diff]
     colorMoved = default
 [diff "image"]
-	command = ~/bin/git-imgdiff.sh
+	command = ~/git_bin/git-imgdiff.sh
 [push]
 	default = current
     autoSetupRemote = true
