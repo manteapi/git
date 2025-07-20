@@ -12,7 +12,6 @@ coverage.xml
 
 tags
 
-**.vscode
 *.code-workspace
 
 build-release
