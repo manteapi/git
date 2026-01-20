@@ -1,6 +1,7 @@
 [user]
 	email = pierre-luc.manteaux@circle.dental
 	name = Pierre-Luc Manteaux
+	signingkey = 327A9FF2B49DE782
 [interactive]
     diffFilter = delta --color--only
 [delta]
@@ -37,3 +38,7 @@
     k = log --graph --abbrev-commit --decorate --oneline
 [checkout]
     workers = 4
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
