@@ -21,8 +21,6 @@
     conflictstyle = diff3
 [diff]
     colorMoved = default
-[diff "image"]
-	command = ~/git_bin/git-imgdiff.sh
 [push]
 	default = current
     autoSetupRemote = true
